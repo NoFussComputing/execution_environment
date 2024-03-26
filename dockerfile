@@ -90,6 +90,7 @@ RUN ansible-galaxy collection install \
     # ansible.posix.authorized_key for SSH
     ansible.posix==1.5.4 \
     ansible.utils==3.1.0 \
+    community.crypto==2.18.0 \
     community.dns==2.8.1 \
     # docker managment
     community.docker==3.8.0 \
@@ -99,4 +100,4 @@ RUN ansible-galaxy collection install \
     community.postgresql==3.4.0 \
     theforeman.foreman==4.0.0; \
   ansible-galaxy collection install --pre \
-    nofusscomputing.kubernetes==1.2.0
+    nofusscomputing.kubernetes==1.5.0
